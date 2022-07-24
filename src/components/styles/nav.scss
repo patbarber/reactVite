@@ -1,0 +1,37 @@
+.header {
+  flex: auto;
+  align-items: center;
+}
+
+.heading {
+  margin: 0;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav {
+  display: grid;
+  font-size: large;
+  grid-template-columns: auto auto;
+  background-color: darkslategrey;
+}
+.item {
+  border: 2px solid black;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.item:hover {
+  background-color: #597272;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  background-color: darkolivegreen;
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+}
